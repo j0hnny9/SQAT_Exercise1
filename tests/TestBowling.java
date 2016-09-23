@@ -188,7 +188,7 @@ public class TestBowling {
 	@Test
 	public void testFrame_NoSpare_6_3() throws BowlingException {
 		Frame frame = new Frame(6,3);
-		assertEquals(true, frame.isSpare());
+		assertEquals(false, frame.isSpare());
 	}
 	
 	@Test

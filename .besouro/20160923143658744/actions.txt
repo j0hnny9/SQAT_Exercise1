@@ -314,3 +314,6 @@ RefactoringAction 1474635960104 TestBowling.java ADD void testFrame_Spare_6_4()/
 RefactoringAction 1474635962623 TestBowling.java RENAME testFrame_Spare_6_4()/2=>void testFrame_NoSpare_6_4() METHOD
 RefactoringAction 1474635966138 TestBowling.java RENAME testFrame_NoSpare_6_4()=>void testFrame_NoSpare_6_3() METHOD
 EditAction 1474635975675 TestBowling.java 5053 22 61 15
+UnitTestCaseAction 1474635975987 TestBowling.java FAIL
+UnitTestSessionAction 1474635975988 TestBowling.java FAIL
+EditAction 1474635981727 TestBowling.java 5054 22 61 15
