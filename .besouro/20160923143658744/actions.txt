@@ -205,3 +205,9 @@ EditAction 1474634404976 TestBowling.java 3393 14 37 9
 UnitTestCaseAction 1474634405274 TestBowling.java FAIL
 UnitTestSessionAction 1474634405274 TestBowling.java FAIL
 EditAction 1474634410805 TestBowling.java 3382 14 36 9
+UnitTestCaseAction 1474634411090 TestBowling.java OK
+UnitTestSessionAction 1474634411090 TestBowling.java OK
+RefactoringAction 1474634436963 TestBowling.java ADD void testGame FIELD
+RefactoringAction 1474634438477 TestBowling.java RENAME testGame=>void testGame_ FIELD
+RefactoringAction 1474634440493 TestBowling.java RENAME testGame_=>void testGame_strike() METHOD
+EditAction 1474634444451 TestBowling.java 3471 15 37 9

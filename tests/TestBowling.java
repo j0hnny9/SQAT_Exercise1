@@ -129,5 +129,15 @@ public class TestBowling {
 		}
 		assertEquals(0, game.score());
 	}
+	
+	
+	/*
+	 * Strike
+	 */
+	
+	@Test
+	public void testGame_strike() {
+		fail();
+	}
 
 }
