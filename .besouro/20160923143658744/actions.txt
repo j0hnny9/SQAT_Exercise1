@@ -96,3 +96,38 @@ RefactoringAction 1474632231909 TestBowling.java RENAME testFrame_InvalidSum_Exc
 RefactoringAction 1474632232919 TestBowling.java RENAME testFrame_InvalidSumOf_Exception()=>void testFrame_InvalidSumOfTh_Exception() METHOD
 RefactoringAction 1474632234433 TestBowling.java RENAME testFrame_InvalidSumOfTh_Exception()=>void testFrame_InvalidSumOfThrows_Exception() METHOD
 EditAction 1474632239478 Frame.java 776 6 8 0
+CompilationAction 1474632239577 TestBowling.java
+RefactoringAction 1474632302530 TestBowling.java RENAME testFrame_score_InitialSetup_Frame_2_4_output_6()/2=>void testFrame_score_InitialSetup_Frame_7_4_output_6() METHOD
+RefactoringAction 1474632304045 TestBowling.java RENAME testFrame_score_InitialSetup_Frame_7_4_output_6()=>void testFrame_score_InitialSetup_Frame_7_1_output_6() METHOD
+RefactoringAction 1474632306559 TestBowling.java RENAME testFrame_score_InitialSetup_Frame_7_1_output_6()=>void testFrame_score_InitialSetup_Frame_7_1_output_8() METHOD
+CompilationAction 1474632315976 TestBowling.java
+UnitTestCaseAction 1474632316235 TestBowling.java OK
+UnitTestSessionAction 1474632316235 TestBowling.java OK
+RefactoringAction 1474632640370 BowlingGame.java ADD Frame get FIELD
+RefactoringAction 1474632641887 BowlingGame.java RENAME get=>Frame getFrame FIELD
+RefactoringAction 1474632642902 BowlingGame.java RENAME getFrame=>Frame getFrameNr FIELD
+RefactoringAction 1474632643923 BowlingGame.java RENAME getFrameNr=>Frame getFrameNr() METHOD
+RefactoringAction 1474632647450 BowlingGame.java RENAME getFrameNr()=>Frame getFrameNr(int) METHOD
+RefactoringAction 1474632804420 BowlingGame.java RENAME getFrameNr(int)=>Frame getExistingFrameNr(int) METHOD
+RefactoringAction 1474632806936 BowlingGame.java RENAME getExistingFrameNr(int)=>Frame getExistingFrameByNr(int) METHOD
+RefactoringAction 1474632834408 TestBowling.java ADD void testGame FIELD
+RefactoringAction 1474632835920 TestBowling.java RENAME testGame=>void testGame_ FIELD
+RefactoringAction 1474632843427 TestBowling.java RENAME testGame_=>void testGame_add FIELD
+RefactoringAction 1474632848451 TestBowling.java RENAME testGame_add=>void testGame_add3 FIELD
+RefactoringAction 1474632850502 TestBowling.java RENAME testGame_add3=>void testGame_add3Frames FIELD
+RefactoringAction 1474632851514 TestBowling.java RENAME testGame_add3Frames=>void testGame_add3Frames_ FIELD
+RefactoringAction 1474632856530 TestBowling.java RENAME testGame_add3Frames_=>void testGame_add3Frames_return FIELD
+RefactoringAction 1474632860045 TestBowling.java RENAME testGame_add3Frames_return=>void testGame_add3Frames_returnSecondFrame FIELD
+RefactoringAction 1474632862059 TestBowling.java RENAME testGame_add3Frames_returnSecondFrame=>void testGame_add3Frames_returnSecondFrame() METHOD
+RefactoringAction 1474633020462 TestBowling.java RENAME testGame_add3Frames_returnSecondFrame()=>void testGame_add3Frames_returnSecondFrameFirstTh() METHOD
+RefactoringAction 1474633021477 TestBowling.java RENAME testGame_add3Frames_returnSecondFrameFirstTh()=>void testGame_add3Frames_returnSecondFrameFirstThrow() METHOD
+RefactoringAction 1474633073096 TestBowling.java ADD void testGame_add3Frames_returnSecondFrameFirstThrow()/2 METHOD
+RefactoringAction 1474633078612 TestBowling.java RENAME testGame_add3Frames_returnSecondFrameFirstThrow()/2=>void testGame_addFrames_returnSecondFrameFirstThrow() METHOD
+RefactoringAction 1474633079629 TestBowling.java RENAME testGame_addFrames_returnSecondFrameFirstThrow()=>void testGame_add10Frames_returnSecondFrameFirstThrow() METHOD
+RefactoringAction 1474633136861 TestBowling.java RENAME testGame_add3Frames_returnSecondFrameFirstThrow()=>void testGame_add3Frames_returnSecondFrameFThrow() METHOD
+RefactoringAction 1474633138876 TestBowling.java RENAME testGame_add3Frames_returnSecondFrameFThrow()=>void testGame_add3Frames_returnSecondFrameFirstThrow() METHOD
+RefactoringAction 1474633159920 TestBowling.java RENAME testGame_add10Frames_returnSecondFrameFirstThrow()=>void testGame_add10Frames_returnFrameFirstThrow() METHOD
+RefactoringAction 1474633163438 TestBowling.java RENAME testGame_add10Frames_returnFrameFirstThrow()=>void testGame_add10Frames_returnFoutFrameFirstThrow() METHOD
+RefactoringAction 1474633165452 TestBowling.java RENAME testGame_add10Frames_returnFoutFrameFirstThrow()=>void testGame_add10Frames_returnFourthFrameFirstThrow() METHOD
+RefactoringAction 1474633171467 TestBowling.java RENAME testGame_add10Frames_returnFourthFrameFirstThrow()=>void testGame_add10Frames_returnFourthFrameSecondThrow() METHOD
+EditAction 1474633214730 BowlingGame.java 851 5 3 0
