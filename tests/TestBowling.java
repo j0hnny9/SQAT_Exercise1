@@ -235,7 +235,7 @@ public class TestBowling {
 	 */
 	
 	@Test
-	public void testGame_2Strikes_Score_112() {
+	public void testGame_2Strikes_Score_112() throws BowlingException {
 		game.addFrame(new Frame(10,0));
 		game.addFrame(new Frame(10,0));
 		game.addFrame(new Frame(7,2));
@@ -248,7 +248,6 @@ public class TestBowling {
 		game.addFrame(new Frame(2,6));
 		
 		assertEquals(112, game.score());
-		fail();
 	}
 	
 }
