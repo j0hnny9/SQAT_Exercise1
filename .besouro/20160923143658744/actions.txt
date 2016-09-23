@@ -317,3 +317,14 @@ EditAction 1474635975675 TestBowling.java 5053 22 61 15
 UnitTestCaseAction 1474635975987 TestBowling.java FAIL
 UnitTestSessionAction 1474635975988 TestBowling.java FAIL
 EditAction 1474635981727 TestBowling.java 5054 22 61 15
+UnitTestCaseAction 1474635982026 TestBowling.java FAIL
+UnitTestSessionAction 1474635982026 TestBowling.java FAIL
+RefactoringAction 1474635990215 TestBowling.java RENAME tesFrame_SpareInSecondThrow()=>void testFrame_SpareInSecondThrow() METHOD
+RefactoringAction 1474635997231 TestBowling.java RENAME testFrame_SpareInSecondThrow()=>void testFrame_SpareInSecondThrow_Sum() METHOD
+RefactoringAction 1474636000747 TestBowling.java RENAME testFrame_SpareInSecondThrow_Sum()=>void testFrame_SpareInSecondThrow_Sum_() METHOD
+RefactoringAction 1474636073321 TestBowling.java REMOVE testFrame_SpareInSecondThrow_Sum_() METHOD
+RefactoringAction 1474636115782 BowlingGame.java REMOVE getFrames() METHOD
+RefactoringAction 1474636115782 BowlingGame.java REMOVE getExistingFrameByNr(int) METHOD
+RefactoringAction 1474636115922 BowlingGame.java ADD Frame getExistingFrameByNr(int) METHOD
+RefactoringAction 1474636115923 BowlingGame.java ADD List<Frame> getFrames() METHOD
+EditAction 1474636331018 TestBowling.java 5070 21 58 15
