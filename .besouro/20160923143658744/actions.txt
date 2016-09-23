@@ -282,3 +282,6 @@ RefactoringAction 1474635602071 TestBowling.java RENAME testGame_1Strike_OnlyOne
 RefactoringAction 1474635607087 TestBowling.java RENAME testGame_1Strike_OnlyOneFrame_Sum()=>void testGame_1Strike_OnlyOneFrame_Sum5() METHOD
 RefactoringAction 1474635626128 TestBowling.java RENAME testGame_1Strike_OnlyOneFrame_Sum5()=>void testGame_1Strike_OnlyOneFrame_Sum10() METHOD
 EditAction 1474635640986 TestBowling.java 4559 19 54 13
+UnitTestCaseAction 1474635641273 TestBowling.java OK
+UnitTestSessionAction 1474635641273 TestBowling.java OK
+EditAction 1474635647082 TestBowling.java 4570 19 55 13
