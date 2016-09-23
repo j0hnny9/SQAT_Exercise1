@@ -329,3 +329,10 @@ RefactoringAction 1474636115922 BowlingGame.java ADD Frame getExistingFrameByNr(
 RefactoringAction 1474636115923 BowlingGame.java ADD List<Frame> getFrames() METHOD
 EditAction 1474636331018 TestBowling.java 5070 21 58 15
 EditAction 1474636331089 BowlingGame.java 1473 6 6 0
+UnitTestCaseAction 1474636331375 TestBowling.java OK
+UnitTestSessionAction 1474636331376 TestBowling.java OK
+RefactoringAction 1474636336396 TestBowling.java ADD void testFrame_SpareInSecondThrow_Sum_() METHOD
+RefactoringAction 1474636353967 TestBowling.java RENAME testFrame_SpareInSecondThrow_Sum_()=>void testFrame_SpareInFirstThrow_Sum_() METHOD
+RefactoringAction 1474636356480 TestBowling.java RENAME testFrame_SpareInFirstThrow_Sum_()=>void testFrame_SpareInFirstFrame_Sum_() METHOD
+RefactoringAction 1474636369496 TestBowling.java RENAME testFrame_SpareInFirstFrame_Sum_()=>void testFrame_SpareInFirstFrame_Sum_88() METHOD
+EditAction 1474636418596 TestBowling.java 5375 22 70 16

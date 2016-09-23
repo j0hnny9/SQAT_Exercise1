@@ -191,13 +191,22 @@ public class TestBowling {
 		assertEquals(false, frame.isSpare());
 	}
 	
-	/*
+	
 	@Test
-	public void testFrame_SpareInSecondThrow_Sum_() throws BowlingException {
-		game.addFrame(new Frame(1,0));
-		game.addFrame(new Frame(4,6));
+	public void testFrame_SpareInFirstFrame_Sum_88() throws BowlingException {
+		game.addFrame(new Frame(1,9));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(7,2));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(4,4));
+		game.addFrame(new Frame(5,3));
+		game.addFrame(new Frame(3,3));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(8,1));
+		game.addFrame(new Frame(2,6));
+		
+		assertEquals(88, game.score());
 		fail();
 	}
-	*/
 	
 }
