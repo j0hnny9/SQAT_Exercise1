@@ -328,3 +328,4 @@ RefactoringAction 1474636115782 BowlingGame.java REMOVE getExistingFrameByNr(int
 RefactoringAction 1474636115922 BowlingGame.java ADD Frame getExistingFrameByNr(int) METHOD
 RefactoringAction 1474636115923 BowlingGame.java ADD List<Frame> getFrames() METHOD
 EditAction 1474636331018 TestBowling.java 5070 21 58 15
+EditAction 1474636331089 BowlingGame.java 1473 6 6 0

@@ -26,14 +26,20 @@ public class BowlingGame {
 		int sum = 0;
 		for (int i=0; i < frames.size(); i++) {
 			sum += frames.get(i).score();
-			if (frames.get(i).isStrike()) {
-				/*
-				 *  check if there is a subsequent frame to the strike frame and calculate score, 
-				 *  otherwise do nothing
-				 */
-				if (i + 1 < frames.size()) {
-					Frame subsequentFrame = frames.get(i + 1);
+			
+			/*
+			 *  check if there is a subsequent frame
+			 *   for the case of a strike or spare frame and calculate score for these cases
+			 *  otherwise do nothing
+			 */
+			Frame subsequentFrame;
+			if (i + 1 < frames.size()) {
+				subsequentFrame = frames.get(i + 1);
+				
+				if (frames.get(i).isStrike()) {					
 					sum += subsequentFrame.getFirstThrow() + subsequentFrame.getSecondThrow();
+				} else if (frames.get(i).isSpare()) {
+					sum += subsequentFrame.getFirstThrow();
 				}
 			}
 		}
