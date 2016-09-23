@@ -227,3 +227,14 @@ RefactoringAction 1474634655290 TestBowling.java RENAME testFrame_InvalidSumOfTh
 RefactoringAction 1474634657804 TestBowling.java RENAME testFrame_InvalidSumOfThrows__Exception()/2=>void testFrame_InvalidSumOfThrows_5_6_Exception() METHOD
 RefactoringAction 1474634670820 TestBowling.java RENAME testFrame_InvalidSumOfThrows__Exception()=>void testFrame_InvalidSumOfThrows_10_1_Exception() METHOD
 EditAction 1474634694337 Frame.java 900 6 8 0
+CompilationAction 1474634694436 TestBowling.java
+CompilationAction 1474634705388 TestBowling.java
+UnitTestCaseAction 1474634705647 TestBowling.java FAIL
+UnitTestSessionAction 1474634705647 TestBowling.java FAIL
+UnitTestCaseAction 1474634719574 TestBowling.java FAIL
+UnitTestSessionAction 1474634719575 TestBowling.java FAIL
+RefactoringAction 1474634813202 TestBowling.java ADD void testGame_strike_FirstThrow10()/2 METHOD
+RefactoringAction 1474634817716 TestBowling.java RENAME testGame_strike_FirstThrow10()/2=>void testGame_Nostrike_FirstThrow10() METHOD
+RefactoringAction 1474634819731 TestBowling.java RENAME testGame_Nostrike_FirstThrow10()=>void testGame_NoStrike_FirstThrow10() METHOD
+RefactoringAction 1474634822243 TestBowling.java RENAME testGame_NoStrike_FirstThrow10()=>void testGame_NoStrike_FirstThrow9() METHOD
+EditAction 1474634835184 TestBowling.java 3934 17 41 11

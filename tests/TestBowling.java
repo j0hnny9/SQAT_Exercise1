@@ -46,7 +46,7 @@ public class TestBowling {
 		Frame testFrame = new Frame(5,6);
 	}
 	
-	@Test//(expected=BowlingException.class)
+	@Test(expected=BowlingException.class)
 	public void testFrame_InvalidSumOfThrows_10_1_Exception() throws BowlingException {
 		Frame testFrame = new Frame(10,1);
 	}
@@ -141,9 +141,15 @@ public class TestBowling {
 	 */
 	
 	@Test
-	public void testGame_strike_FirstThrow10() {
-		game.addFrame(new Frame(10,0));
-		fail();
+	public void testGame_strike_FirstThrow10() throws BowlingException {
+		Frame strikeFrame = new Frame(10,0);
+		assertEquals(true, strikeFrame.isStrike());
+	}
+	
+	@Test
+	public void testGame_NoStrike_FirstThrow9() throws BowlingException {
+		Frame strikeFrame = new Frame(9,1);
+		assertEquals(false, strikeFrame.isStrike());
 	}
 
 }
