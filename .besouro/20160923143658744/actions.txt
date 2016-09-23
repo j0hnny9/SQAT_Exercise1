@@ -75,3 +75,24 @@ EditAction 1474632089503 TestBowling.java 946 4 7 3
 UnitTestCaseAction 1474632089794 TestBowling.java FAIL
 UnitTestSessionAction 1474632089794 TestBowling.java FAIL
 EditAction 1474632104699 TestBowling.java 947 4 7 3
+UnitTestCaseAction 1474632104980 TestBowling.java OK
+UnitTestSessionAction 1474632104980 TestBowling.java OK
+RefactoringAction 1474632127178 TestBowling.java RENAME testFrame_InitialSetup_InvalidThrowNr_Exception()=>void testFrame_InitialSetup_InvalidFirdtThrowNr_Exception() METHOD
+RefactoringAction 1474632130692 TestBowling.java RENAME testFrame_InitialSetup_InvalidFirdtThrowNr_Exception()=>void testFrame_InitialSetup_InvalidFirdtThrow_Exception() METHOD
+RefactoringAction 1474632137207 TestBowling.java ADD void testFrame_InitialSetup_InvalidFirdtThrow_Exception()/2 METHOD
+RefactoringAction 1474632140723 TestBowling.java RENAME testFrame_InitialSetup_InvalidFirdtThrow_Exception()/2=>void testFrame_InitialSetup_InvalidFirdThrow_Exception() METHOD
+RefactoringAction 1474632143238 TestBowling.java RENAME testFrame_InitialSetup_InvalidFirdThrow_Exception()=>void testFrame_InitialSetup_InvalidSecondThrow_Exception() METHOD
+UnitTestCaseAction 1474632149383 TestBowling.java OK
+UnitTestSessionAction 1474632149383 TestBowling.java OK
+RefactoringAction 1474632160292 TestBowling.java ADD void testFrame_score_InitialSetup_Frame_2_4_output_6()/2 METHOD
+RefactoringAction 1474632207823 TestBowling.java RENAME testFrame_InitialSetup_InvalidFirdtThrow_Exception()=>void testFrame_InvalidFirdtThrow_Exception() METHOD
+RefactoringAction 1474632211339 TestBowling.java RENAME testFrame_InitialSetup_InvalidSecondThrow_Exception()=>void testFrame_InvalidSecondThrow_Exception() METHOD
+RefactoringAction 1474632217855 TestBowling.java ADD void testFrame_InvalidFirdtThrow_Exception()/2 METHOD
+RefactoringAction 1474632217856 TestBowling.java ADD void testFrame_InvalidSecondThrow_Exception()/2 METHOD
+RefactoringAction 1474632221870 TestBowling.java REMOVE testFrame_InvalidSecondThrow_Exception()/2 METHOD
+RefactoringAction 1474632226385 TestBowling.java RENAME testFrame_InvalidFirdtThrow_Exception()/2=>void testFrame_Invalid_Exception() METHOD
+RefactoringAction 1474632229401 TestBowling.java RENAME testFrame_Invalid_Exception()=>void testFrame_InvalidSum_Exception() METHOD
+RefactoringAction 1474632231909 TestBowling.java RENAME testFrame_InvalidSum_Exception()=>void testFrame_InvalidSumOf_Exception() METHOD
+RefactoringAction 1474632232919 TestBowling.java RENAME testFrame_InvalidSumOf_Exception()=>void testFrame_InvalidSumOfTh_Exception() METHOD
+RefactoringAction 1474632234433 TestBowling.java RENAME testFrame_InvalidSumOfTh_Exception()=>void testFrame_InvalidSumOfThrows_Exception() METHOD
+EditAction 1474632239478 Frame.java 776 6 8 0

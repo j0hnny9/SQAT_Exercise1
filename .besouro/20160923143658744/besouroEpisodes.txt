@@ -237,3 +237,8 @@
 1474631908756 refactoring 3 197 true
 1474631908757 refactoring 3 197 true
 1474632012151 refactoring 2A 0 true
+1474632104980 test-addition 2 75 true
+1474632104981 test-addition 1 75 true
+1474632104982 test-addition 2 75 true
+1474632104983 test-addition 1 75 true
+1474632149383 test-addition 1 22 true

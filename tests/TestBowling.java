@@ -27,8 +27,25 @@ public class TestBowling {
 	}
 	
 	@Test(expected=BowlingException.class)
-	public void testFrame_InitialSetup_InvalidThrowNr_Exception() throws BowlingException {
+	public void testFrame_InvalidFirdtThrow_Exception() throws BowlingException {
 		Frame testFrame = new Frame(11,4);
+	}
+	
+	@Test(expected=BowlingException.class)
+	public void testFrame_InvalidSecondThrow_Exception() throws BowlingException {
+		Frame testFrame = new Frame(2,11);
+	}
+	
+	@Test(expected=BowlingException.class)
+	public void testFrame_InvalidSumOfThrows_Exception() throws BowlingException {
+		Frame testFrame = new Frame(11,4);
+	}
+	
+	
+	@Test
+	public void testFrame_score_InitialSetup_Frame_2_4_output_6() throws BowlingException {
+		Frame testFrame = new Frame(2,4);
+		assertEquals(6, testFrame.score());
 	}
 	
 	@Test
