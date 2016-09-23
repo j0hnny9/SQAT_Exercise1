@@ -250,3 +250,6 @@ RefactoringAction 1474634916500 TestBowling.java RENAME testGame_1Strike_Sum_=>v
 RefactoringAction 1474634918513 TestBowling.java RENAME testGame_1Strike_Sum_91=>void testGame_1Strike_Sum_94 FIELD
 RefactoringAction 1474634924528 TestBowling.java RENAME testGame_1Strike_Sum_94=>void testGame_1Strike_Sum_94() METHOD
 EditAction 1474634929673 TestBowling.java 4002 18 42 11
+UnitTestCaseAction 1474634929979 TestBowling.java FAIL
+UnitTestSessionAction 1474634929979 TestBowling.java FAIL
+EditAction 1474635017850 TestBowling.java 4382 18 53 12
