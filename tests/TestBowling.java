@@ -153,7 +153,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testGame_1Strike_Sum_94() {
+	public void testGame_1Strike_Sum_94() throws BowlingException {
 		game.addFrame(new Frame(10,0));
 		game.addFrame(new Frame(3,6));
 		game.addFrame(new Frame(7,2));
@@ -166,7 +166,6 @@ public class TestBowling {
 		game.addFrame(new Frame(2,6));
 		
 		assertEquals(94, game.score());
-		fail();
 	}
 
 }

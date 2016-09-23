@@ -24,8 +24,8 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int sum = 0;
-		for (Frame f : frames) {
-			sum += f.score();
+		for (int i=0; i < frames.size(); i++) {
+			sum += frames.get(i).score();
 		}
 		return sum;
 	}
