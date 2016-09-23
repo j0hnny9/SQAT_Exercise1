@@ -229,4 +229,14 @@ public class TestBowling {
 		assertEquals(103, game.score());
 	}
 	
+	
+	/*
+	 * 8.Multiple Strikes
+	 */
+	
+	@Test
+	public void testGame_MultipleStrikes() {
+		fail();
+	}
+	
 }

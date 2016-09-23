@@ -373,3 +373,8 @@ EditAction 1474637474755 TestBowling.java 5887 23 81 17
 UnitTestCaseAction 1474637475053 TestBowling.java FAIL
 UnitTestSessionAction 1474637475054 TestBowling.java FAIL
 EditAction 1474637480097 TestBowling.java 5876 23 80 17
+UnitTestCaseAction 1474637480402 TestBowling.java OK
+UnitTestSessionAction 1474637480403 TestBowling.java OK
+RefactoringAction 1474637517016 TestBowling.java ADD void testGame FIELD
+RefactoringAction 1474637526030 TestBowling.java RENAME testGame=>void testGame_MultipleStrikes() METHOD
+EditAction 1474637527720 TestBowling.java 5986 24 81 17
