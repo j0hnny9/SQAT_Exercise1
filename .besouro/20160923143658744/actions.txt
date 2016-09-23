@@ -137,3 +137,7 @@ UnitTestCaseAction 1474633372661 TestBowling.java FAIL
 UnitTestSessionAction 1474633372662 TestBowling.java FAIL
 RefactoringAction 1474633378591 TestBowling.java REMOVE testGame_add10Frames_returnFourthFrameSecondThrow() METHOD
 EditAction 1474633385420 TestBowling.java 2152 8 16 5
+UnitTestCaseAction 1474633385734 TestBowling.java FAIL
+UnitTestSessionAction 1474633385735 TestBowling.java FAIL
+RefactoringAction 1474633612229 BowlingGame.java ADD List<Frame> getFrames() METHOD
+EditAction 1474633631352 TestBowling.java 2200 8 17 5
