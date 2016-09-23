@@ -172,7 +172,6 @@ public class TestBowling {
 	public void testGame_1Strike_OnlyOneFrame_Sum10() throws BowlingException {
 		game.addFrame(new Frame(10,0));
 		assertEquals(10, game.score());
-		fail();
 	}
 	
 }
