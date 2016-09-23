@@ -348,3 +348,4 @@ RefactoringAction 1474636485386 Frame.java RENAME subequentFrame=>Frame subseque
 RefactoringAction 1474636644933 Frame.java ADD void setSubsequentFrame FIELD
 RefactoringAction 1474636649944 Frame.java RENAME setSubsequentFrame=>void setSubsequentFrame(Frame) METHOD
 EditAction 1474636929790 BowlingGame.java 1055 6 7 0
+EditAction 1474636929854 Frame.java 1548 7 11 0
