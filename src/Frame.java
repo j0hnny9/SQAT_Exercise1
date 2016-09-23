@@ -50,7 +50,7 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare() {
-		if ( ! this.isStrike() && this.score() == 10) {
+		if ( ! this.isStrike() && this.firstThrow + this.secondThrow == 10) {
 			return true;
 		} else {		
 			return false;
