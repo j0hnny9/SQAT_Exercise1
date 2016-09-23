@@ -91,7 +91,8 @@ public class TestBowling {
 	 * 4. Game Score
 	 */
 	
-	@Test void testGame_score_10_Frames_Score_81() throws BowlingException {
+	@Test
+	public void testGame_score_10_Frames_Score_81() throws BowlingException {
 		game.addFrame(new Frame(1,5));
 		game.addFrame(new Frame(3,6));
 		game.addFrame(new Frame(7,2));

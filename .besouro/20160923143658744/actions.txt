@@ -162,3 +162,6 @@ RefactoringAction 1474633874097 TestBowling.java RENAME testGame_score_10Frames_
 RefactoringAction 1474633879108 TestBowling.java RENAME testGame_score_10_Frames_Score=>void testGame_score_10_Frames_Score_81() METHOD
 RefactoringAction 1474633928300 TestBowling.java ADD BowlingGame game FIELD
 EditAction 1474634047786 BowlingGame.java 934 6 6 0
+UnitTestCaseAction 1474634048135 TestBowling.java FAIL
+UnitTestSessionAction 1474634048135 TestBowling.java FAIL
+EditAction 1474634059447 TestBowling.java 2687 10 30 7
