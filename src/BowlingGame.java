@@ -29,7 +29,7 @@ public class BowlingGame {
 	
 	// frame number zero-based
 	public Frame getExistingFrameByNr(int frameNr) throws BowlingException {
-		if (frameNr >= frames.size()) {
+		if (frameNr <= frames.size()) {
 			return frames.get(frameNr);
 		} else {
 			throw new BowlingException();
