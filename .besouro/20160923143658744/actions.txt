@@ -265,3 +265,9 @@ RefactoringAction 1474635237823 BowlingGame.java REMOVE getExistingFrameByNr(int
 RefactoringAction 1474635238525 BowlingGame.java ADD Frame getExistingFrameByNr(int) METHOD
 RefactoringAction 1474635238526 BowlingGame.java ADD List<Frame> getFrames() METHOD
 EditAction 1474635491855 BowlingGame.java 1391 6 6 0
+UnitTestCaseAction 1474635492159 TestBowling.java OK
+UnitTestSessionAction 1474635492159 TestBowling.java OK
+RefactoringAction 1474635501404 TestBowling.java ADD void testGame_1Strike_Sum_94()/2 METHOD
+RefactoringAction 1474635512426 TestBowling.java RENAME testGame_1Strike_Sum_94()/2=>void testGame_1Strike_Only_Sum_94() METHOD
+RefactoringAction 1474635522943 TestBowling.java REMOVE testGame_1Strike_Only_Sum_94() METHOD
+EditAction 1474635575855 TestBowling.java 4395 18 52 12
