@@ -31,6 +31,10 @@ public class TestBowling {
 		Frame testFrame = new Frame(2,4);
 	}
 	
-	
+	@Test
+	public void testFrame_score_InitialSetup_Frame_2_4_output_6() throws BowlingException {
+		Frame testFrame = new Frame(2,4);
+		assertEquals(6, testFrame.score());
+	}
 
 }
