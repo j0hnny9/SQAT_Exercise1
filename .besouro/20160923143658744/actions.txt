@@ -56,3 +56,4 @@ FileOpenedAction 1474631791496 SudokuVerifierTest.java 2929 15 20 11
 FileOpenedAction 1474631797998 SudokuVerifierParametrizedTest.java 172 1 1 0
 RefactoringAction 1474631810143 TestBowling.java ADD import jdk.Exported IMPORT
 EditAction 1474631896464 TestBowling.java 717 3 5 2
+EditAction 1474631896528 Frame.java 781 6 8 0
