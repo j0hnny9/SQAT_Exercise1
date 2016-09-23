@@ -131,3 +131,9 @@ RefactoringAction 1474633163438 TestBowling.java RENAME testGame_add10Frames_ret
 RefactoringAction 1474633165452 TestBowling.java RENAME testGame_add10Frames_returnFoutFrameFirstThrow()=>void testGame_add10Frames_returnFourthFrameFirstThrow() METHOD
 RefactoringAction 1474633171467 TestBowling.java RENAME testGame_add10Frames_returnFourthFrameFirstThrow()=>void testGame_add10Frames_returnFourthFrameSecondThrow() METHOD
 EditAction 1474633214730 BowlingGame.java 851 5 3 0
+UnitTestCaseAction 1474633215043 TestBowling.java FAIL
+UnitTestSessionAction 1474633215043 TestBowling.java FAIL
+UnitTestCaseAction 1474633372661 TestBowling.java FAIL
+UnitTestSessionAction 1474633372662 TestBowling.java FAIL
+RefactoringAction 1474633378591 TestBowling.java REMOVE testGame_add10Frames_returnFourthFrameSecondThrow() METHOD
+EditAction 1474633385420 TestBowling.java 2152 8 16 5

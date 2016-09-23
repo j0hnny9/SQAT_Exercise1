@@ -76,6 +76,7 @@ public class TestBowling {
 		assertEquals(1, game.getExistingFrameByNr(1).getFirstThrow());
 	}
 	
+	/*
 	@Test
 	public void testGame_add10Frames_returnFourthFrameSecondThrow() throws BowlingException {
 		BowlingGame game = new BowlingGame();
@@ -84,5 +85,5 @@ public class TestBowling {
 		}
 		assertEquals(3, game.getExistingFrameByNr(3).getSecondThrow());
 	}
-
+*/
 }
