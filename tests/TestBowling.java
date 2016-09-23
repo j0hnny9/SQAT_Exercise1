@@ -174,4 +174,23 @@ public class TestBowling {
 		assertEquals(10, game.score());
 	}
 	
+	
+	/*
+	 * Spare
+	 */
+	
+	@Test
+	public void testFrame_Spare_6_4() throws BowlingException {
+		Frame frame = new Frame(6,4);
+		assertEquals(true, frame.isSpare());
+		fail();
+	}
+	
+	@Test
+	public void tesFrame_SpareInSecondThrow() throws BowlingException {
+		game.addFrame(new Frame(1,0));
+		game.addFrame(new Frame(4,6));
+		fail();
+	}
+	
 }

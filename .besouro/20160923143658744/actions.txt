@@ -288,3 +288,19 @@ EditAction 1474635647082 TestBowling.java 4570 19 55 13
 UnitTestCaseAction 1474635647401 TestBowling.java FAIL
 UnitTestSessionAction 1474635647401 TestBowling.java FAIL
 EditAction 1474635651770 TestBowling.java 4559 19 54 13
+UnitTestCaseAction 1474635652070 TestBowling.java OK
+UnitTestSessionAction 1474635652070 TestBowling.java OK
+RefactoringAction 1474635691805 TestBowling.java ADD void test FIELD
+RefactoringAction 1474635712823 TestBowling.java RENAME test=>void testGame FIELD
+RefactoringAction 1474635805343 TestBowling.java RENAME testGame=>void testGame_ FIELD
+RefactoringAction 1474635808857 TestBowling.java RENAME testGame_=>void tesFr FIELD
+RefactoringAction 1474635809871 TestBowling.java RENAME tesFr=>void tesFrame FIELD
+RefactoringAction 1474635811886 TestBowling.java RENAME tesFrame=>void tesFrame_ FIELD
+RefactoringAction 1474635815403 TestBowling.java RENAME tesFrame_=>void tesFrame_Sp FIELD
+RefactoringAction 1474635817418 TestBowling.java RENAME tesFrame_Sp=>void tesFrame_Spare_ FIELD
+RefactoringAction 1474635819936 TestBowling.java RENAME tesFrame_Spare_=>void tesFrame_SpareIn FIELD
+RefactoringAction 1474635821946 TestBowling.java RENAME tesFrame_SpareIn=>void tesFrame_SpareInSecond FIELD
+RefactoringAction 1474635826459 TestBowling.java RENAME tesFrame_SpareInSecond=>void tesFrame_SpareInSecondThrow FIELD
+RefactoringAction 1474635827975 TestBowling.java RENAME tesFrame_SpareInSecondThrow=>void tesFrame_SpareInSecondThrow() METHOD
+RefactoringAction 1474635884777 TestBowling.java ADD void testFrame_Spare_6_4() METHOD
+EditAction 1474635938373 TestBowling.java 4912 21 60 14
