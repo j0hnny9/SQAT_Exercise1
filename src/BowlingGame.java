@@ -23,8 +23,11 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
-		return 0;
+		int sum = 0;
+		for (Frame f : frames) {
+			sum += f.score();
+		}
+		return sum;
 	}
 	
 	// frame number zero-based

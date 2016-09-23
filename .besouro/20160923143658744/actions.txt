@@ -150,3 +150,15 @@ UnitTestCaseAction 1474633726833 TestBowling.java OK
 UnitTestSessionAction 1474633726833 TestBowling.java OK
 RefactoringAction 1474633729820 TestBowling.java ADD void testGame_add10Frames_returnFourthFrameSecondThrow() METHOD
 EditAction 1474633731414 TestBowling.java 2148 9 19 6
+UnitTestCaseAction 1474633731737 TestBowling.java OK
+UnitTestSessionAction 1474633731737 TestBowling.java OK
+RefactoringAction 1474633839510 TestBowling.java ADD void testGame FIELD
+RefactoringAction 1474633843024 TestBowling.java RENAME testGame=>void testGame_score FIELD
+RefactoringAction 1474633845538 TestBowling.java RENAME testGame_score=>void testGame_score_ FIELD
+RefactoringAction 1474633859553 TestBowling.java RENAME testGame_score_=>void testGame_score_10 FIELD
+RefactoringAction 1474633864568 TestBowling.java RENAME testGame_score_10=>void testGame_score_10Frames_ FIELD
+RefactoringAction 1474633871582 TestBowling.java RENAME testGame_score_10Frames_=>void testGame_score_10Frames_Score FIELD
+RefactoringAction 1474633874097 TestBowling.java RENAME testGame_score_10Frames_Score=>void testGame_score_10_Frames_Score FIELD
+RefactoringAction 1474633879108 TestBowling.java RENAME testGame_score_10_Frames_Score=>void testGame_score_10_Frames_Score_81() METHOD
+RefactoringAction 1474633928300 TestBowling.java ADD BowlingGame game FIELD
+EditAction 1474634047786 BowlingGame.java 934 6 6 0
