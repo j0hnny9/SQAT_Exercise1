@@ -18,5 +18,11 @@ public class TestBowling {
 		assertEquals(2, testFrame.getFirstThrow());
 	}
 	
+	@Test
+	public void testFrame_InitialSetup_Frame_2_4_output_SecondThrow4() {
+		Frame testFrame = new Frame(2,4);
+		assertEquals(2, testFrame.getSecondThrow()());
+	}
+	
 
 }

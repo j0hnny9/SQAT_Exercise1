@@ -18,3 +18,9 @@ RefactoringAction 1474631459890 TestBowling.java RENAME Throw()=>void testFrame_
 RefactoringAction 1474631460903 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4__output_firstThrow()=>void testFrame_InitialSetup_Frame_2_4__output_firstThrow2() METHOD
 RefactoringAction 1474631466919 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4__output_firstThrow2()=>void testFrame_InitialSetup_Frame_2_4_output_firstThrow2() METHOD
 EditAction 1474631512372 TestBowling.java 346 2 3 1
+UnitTestCaseAction 1474631513473 TestBowling.java FAIL
+UnitTestSessionAction 1474631513474 TestBowling.java FAIL
+RefactoringAction 1474631528130 TestBowling.java ADD void testFrame_InitialSetup_Frame_2_4_output_firstThrow2()/2 METHOD
+RefactoringAction 1474631535647 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_output_firstThrow2()/2=>void testFrame_InitialSetup_Frame_2_4_output_SecondThrow2() METHOD
+RefactoringAction 1474631537664 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_output_SecondThrow2()=>void testFrame_InitialSetup_Frame_2_4_output_SecondThrow4() METHOD
+EditAction 1474631544926 TestBowling.java 519 3 3 1
