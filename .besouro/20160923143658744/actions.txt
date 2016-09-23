@@ -146,3 +146,7 @@ UnitTestCaseAction 1474633631804 TestBowling.java FAIL
 UnitTestSessionAction 1474633631804 TestBowling.java FAIL
 EditAction 1474633726462 TestBowling.java 2152 8 16 5
 EditAction 1474633726537 BowlingGame.java 911 6 4 0
+UnitTestCaseAction 1474633726833 TestBowling.java OK
+UnitTestSessionAction 1474633726833 TestBowling.java OK
+RefactoringAction 1474633729820 TestBowling.java ADD void testGame_add10Frames_returnFourthFrameSecondThrow() METHOD
+EditAction 1474633731414 TestBowling.java 2148 9 19 6
