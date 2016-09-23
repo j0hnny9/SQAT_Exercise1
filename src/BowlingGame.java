@@ -35,4 +35,8 @@ public class BowlingGame {
 			throw new BowlingException();
 		}
 	}
+	
+	public List<Frame> getFrames() {
+		return frames;
+	}
 }
