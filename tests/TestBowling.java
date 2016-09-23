@@ -92,7 +92,7 @@ public class TestBowling {
 	 */
 	
 	@Test
-	public void testGame_score_10_Frames_Score_81() throws BowlingException {
+	public void testGame_score_10Frames_Score_81() throws BowlingException {
 		game.addFrame(new Frame(1,5));
 		game.addFrame(new Frame(3,6));
 		game.addFrame(new Frame(7,2));
@@ -104,6 +104,12 @@ public class TestBowling {
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
 		assertEquals(81, game.score());
+	}
+	
+	@Test
+	public void testGame_score_1Frame_Score_10() throws BowlingException {
+		game.addFrame(new Frame(5,5));
+		assertEquals(10, game.score());
 	}
 
 }

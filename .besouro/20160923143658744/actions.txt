@@ -171,3 +171,12 @@ EditAction 1474634066464 TestBowling.java 2698 10 31 7
 UnitTestCaseAction 1474634066762 TestBowling.java FAIL
 UnitTestSessionAction 1474634066762 TestBowling.java FAIL
 EditAction 1474634073971 TestBowling.java 2687 10 30 7
+UnitTestCaseAction 1474634074260 TestBowling.java OK
+UnitTestSessionAction 1474634074260 TestBowling.java OK
+RefactoringAction 1474634095492 TestBowling.java ADD void testGame_score_10_Frames_Score_81()/2 METHOD
+RefactoringAction 1474634111023 TestBowling.java RENAME testGame_score_10_Frames_Score_81()/2=>void testGame_score_10Frames_Score_81() METHOD
+RefactoringAction 1474634112540 TestBowling.java RENAME testGame_score_10_Frames_Score_81()=>void testGame_score_10Frames_Score_81()/2 METHOD
+RefactoringAction 1474634117053 TestBowling.java RENAME testGame_score_10Frames_Score_81()/2=>void testGame_score_1Frames_Score_81() METHOD
+RefactoringAction 1474634122070 TestBowling.java RENAME testGame_score_1Frames_Score_81()=>void testGame_score_1Frame_Score_81() METHOD
+RefactoringAction 1474634125583 TestBowling.java RENAME testGame_score_1Frame_Score_81()=>void testGame_score_1Frame_Score_10() METHOD
+EditAction 1474634136998 TestBowling.java 2843 11 32 8
