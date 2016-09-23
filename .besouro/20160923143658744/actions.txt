@@ -339,3 +339,12 @@ EditAction 1474636418596 TestBowling.java 5375 22 70 16
 UnitTestCaseAction 1474636418891 TestBowling.java FAIL
 UnitTestSessionAction 1474636418892 TestBowling.java FAIL
 EditAction 1474636422464 TestBowling.java 5364 22 69 16
+UnitTestCaseAction 1474636422740 TestBowling.java OK
+UnitTestSessionAction 1474636422740 TestBowling.java OK
+RefactoringAction 1474636477856 Frame.java ADD Frame subsequ FIELD
+RefactoringAction 1474636479867 Frame.java RENAME subsequ=>Frame subsequentFrame FIELD
+RefactoringAction 1474636484377 Frame.java RENAME subsequentFrame=>Frame subequentFrame FIELD
+RefactoringAction 1474636485386 Frame.java RENAME subequentFrame=>Frame subsequentFrame FIELD
+RefactoringAction 1474636644933 Frame.java ADD void setSubsequentFrame FIELD
+RefactoringAction 1474636649944 Frame.java RENAME setSubsequentFrame=>void setSubsequentFrame(Frame) METHOD
+EditAction 1474636929790 BowlingGame.java 1055 6 7 0

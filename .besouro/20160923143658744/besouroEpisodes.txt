@@ -296,3 +296,7 @@
 1474636331387 test-first 3 639 true
 1474636331388 test-first 3 639 true
 1474636331389 test-last 1 639 false
+1474636422740 test-addition 2 86 true
+1474636422741 test-addition 1 86 true
+1474636422742 test-addition 2 86 true
+1474636422743 test-addition 1 86 true

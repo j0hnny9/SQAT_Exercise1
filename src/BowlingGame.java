@@ -14,6 +14,9 @@ public class BowlingGame {
 	// adds a frame to the game
 	public void addFrame(Frame frame){
 		frames.add(frame);
+		if (frames.size() > 1) {
+			frames.get(frames.size() - 2).setSubsequentFrame(frame);
+		}
 	}
 	
 	// Sets the bonus throws at the end of the game
@@ -26,22 +29,6 @@ public class BowlingGame {
 		int sum = 0;
 		for (int i=0; i < frames.size(); i++) {
 			sum += frames.get(i).score();
-			
-			/*
-			 *  check if there is a subsequent frame
-			 *   for the case of a strike or spare frame and calculate score for these cases
-			 *  otherwise do nothing
-			 */
-			Frame subsequentFrame;
-			if (i + 1 < frames.size()) {
-				subsequentFrame = frames.get(i + 1);
-				
-				if (frames.get(i).isStrike()) {					
-					sum += subsequentFrame.getFirstThrow() + subsequentFrame.getSecondThrow();
-				} else if (frames.get(i).isSpare()) {
-					sum += subsequentFrame.getFirstThrow();
-				}
-			}
 		}
 		return sum;
 	}
