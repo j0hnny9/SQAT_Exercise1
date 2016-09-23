@@ -7,5 +7,6 @@
 1474633726833 test-first 3 1410 true
 1474633731737 test-addition 1 4 true
 1474634059732 test-last 1 327 false
-1474634074260 refactoring 1A 14 false
-1474634137307 test-addition 1 63 false
+1474634074260 refactoring 1A 14 true
+1474634137307 test-addition 1 63 true
+1474634335178 test-first 4 197 true

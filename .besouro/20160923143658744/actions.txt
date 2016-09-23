@@ -195,3 +195,10 @@ RefactoringAction 1474634308448 TestBowling.java RENAME testFrame_NegativeFirstT
 RefactoringAction 1474634313965 TestBowling.java RENAME testFrame_NegativeSecondThrowValues_Exception()=>void testFrame_NegativeSecondThrowValue_Exception() METHOD
 EditAction 1474634334822 TestBowling.java 3189 13 34 8
 EditAction 1474634334887 Frame.java 861 6 8 0
+UnitTestCaseAction 1474634335176 TestBowling.java OK
+UnitTestSessionAction 1474634335178 TestBowling.java OK
+RefactoringAction 1474634355051 TestBowling.java ADD void testGame_score_1Frame_Score_10()/2 METHOD
+RefactoringAction 1474634388709 TestBowling.java RENAME testGame_score_1Frame_Score_10()/2=>void testGame_score_10Frame_Score_10() METHOD
+RefactoringAction 1474634389723 TestBowling.java RENAME testGame_score_10Frame_Score_10()=>void testGame_score_10Frames_Score_10() METHOD
+RefactoringAction 1474634391236 TestBowling.java RENAME testGame_score_10Frames_Score_10()=>void testGame_score_10Frames_Score_0() METHOD
+EditAction 1474634404976 TestBowling.java 3393 14 37 9

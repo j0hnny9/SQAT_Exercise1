@@ -121,5 +121,14 @@ public class TestBowling {
 		game.addFrame(new Frame(5,5));
 		assertEquals(10, game.score());
 	}
+	
+	@Test
+	public void testGame_score_10Frames_Score_0() throws BowlingException {
+		for (int i=0; i<10; i++) {
+			game.addFrame(new Frame(0,0));
+		}
+		assertEquals(0, game.score());
+		fail();
+	}
 
 }
