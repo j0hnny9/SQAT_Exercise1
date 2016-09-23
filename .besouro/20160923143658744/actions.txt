@@ -1,0 +1,20 @@
+FileOpenedAction 1474630619055 BowlingGame.java 623 4 1 0
+FileOpenedAction 1474630648774 Frame.java 671 6 7 0
+FileOpenedAction 1474631277718 TestBowling.java 165 1 1 0
+FileOpenedAction 1474631280828 BowlingException.java 58 0 0 0
+RefactoringAction 1474631364983 TestBowling.java ADD void testFrame_InitialSetup() METHOD
+RefactoringAction 1474631396642 TestBowling.java ADD Frame testFrame FIELD
+RefactoringAction 1474631422220 TestBowling.java RENAME testFrame_InitialSetup()=>void testFrame_InitialSetup_() METHOD
+RefactoringAction 1474631425232 TestBowling.java RENAME testFrame_InitialSetup_()=>void testFrame_InitialSetup_Frame() METHOD
+RefactoringAction 1474631428742 TestBowling.java RENAME testFrame_InitialSetup_Frame()=>void testFrame_InitialSetup_Frame_2_4_() METHOD
+RefactoringAction 1474631434753 TestBowling.java REMOVE testFrame FIELD
+RefactoringAction 1474631440278 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_()=>void testFrame_InitialSetup_Frame_2_4_output() METHOD
+RefactoringAction 1474631443819 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_output()=>void testFrame_InitialSetup_Frame_2_4_output_() METHOD
+RefactoringAction 1474631445834 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_output_()=>void testFrame_InitialSetup_Frame_2_4_() METHOD
+RefactoringAction 1474631448347 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_()=>void testFrame_InitialSetup_Frame_2_4__output() METHOD
+RefactoringAction 1474631449861 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4__output()=>void testFrame_InitialSetup_Frame_2_4__output_() METHOD
+RefactoringAction 1474631456376 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4__output_()=>void Throw() METHOD
+RefactoringAction 1474631459890 TestBowling.java RENAME Throw()=>void testFrame_InitialSetup_Frame_2_4__output_firstThrow() METHOD
+RefactoringAction 1474631460903 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4__output_firstThrow()=>void testFrame_InitialSetup_Frame_2_4__output_firstThrow2() METHOD
+RefactoringAction 1474631466919 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4__output_firstThrow2()=>void testFrame_InitialSetup_Frame_2_4_output_firstThrow2() METHOD
+EditAction 1474631512372 TestBowling.java 346 2 3 1
