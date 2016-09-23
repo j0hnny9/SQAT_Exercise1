@@ -104,6 +104,7 @@ public class TestBowling {
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
 		assertEquals(81, game.score());
+		fail();
 	}
 
 }
