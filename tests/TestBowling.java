@@ -28,7 +28,7 @@ public class TestBowling {
 	
 	@Test(expected=BowlingException.class)
 	public void testFrame_InitialSetup_InvalidThrowNr_Exception() throws BowlingException {
-		Frame testFrame = new Frame(2,4);
+		Frame testFrame = new Frame(11,4);
 	}
 	
 	@Test

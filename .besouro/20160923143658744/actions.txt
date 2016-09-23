@@ -72,3 +72,6 @@ RefactoringAction 1474632049518 TestBowling.java RENAME testFrame_Score_InitialS
 RefactoringAction 1474632050532 TestBowling.java RENAME testFrame_Score_InitialSetup_Frame_2_4_output_()=>void testFrame_Score_InitialSetup_Frame_2_4_output_6() METHOD
 RefactoringAction 1474632063548 TestBowling.java RENAME testFrame_Score_InitialSetup_Frame_2_4_output_6()=>void testFrame_score_InitialSetup_Frame_2_4_output_6() METHOD
 EditAction 1474632089503 TestBowling.java 946 4 7 3
+UnitTestCaseAction 1474632089794 TestBowling.java FAIL
+UnitTestSessionAction 1474632089794 TestBowling.java FAIL
+EditAction 1474632104699 TestBowling.java 947 4 7 3
