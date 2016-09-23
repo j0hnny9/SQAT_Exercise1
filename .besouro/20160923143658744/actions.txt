@@ -24,3 +24,15 @@ RefactoringAction 1474631528130 TestBowling.java ADD void testFrame_InitialSetup
 RefactoringAction 1474631535647 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_output_firstThrow2()/2=>void testFrame_InitialSetup_Frame_2_4_output_SecondThrow2() METHOD
 RefactoringAction 1474631537664 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_output_SecondThrow2()=>void testFrame_InitialSetup_Frame_2_4_output_SecondThrow4() METHOD
 EditAction 1474631544926 TestBowling.java 519 3 3 1
+CompilationAction 1474631545014 TestBowling.java
+CompilationAction 1474631545014 TestBowling.java
+RefactoringAction 1474631554729 TestBowling.java REMOVE testFrame_InitialSetup_Frame_2_4_output_firstThrow2() METHOD
+RefactoringAction 1474631554730 TestBowling.java REMOVE test() METHOD
+RefactoringAction 1474631554731 TestBowling.java REMOVE testFrame_InitialSetup_Frame_2_4_output_SecondThrow4() METHOD
+RefactoringAction 1474631556746 TestBowling.java ADD void testFrame_InitialSetup_Frame_2_4_output_firstThrow2() METHOD
+RefactoringAction 1474631556748 TestBowling.java ADD void testFrame_InitialSetup_Frame_2_4_output_SecondThrow4() METHOD
+CompilationAction 1474631557740 TestBowling.java
+CompilationAction 1474631557740 TestBowling.java
+UnitTestCaseAction 1474631557965 TestBowling.java FAIL
+UnitTestSessionAction 1474631557966 TestBowling.java FAIL
+EditAction 1474631571476 TestBowling.java 521 2 4 2
