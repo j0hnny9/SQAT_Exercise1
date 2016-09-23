@@ -22,10 +22,22 @@ public class BowlingGame {
 	}
 	
 	// Returns the game score
-	public int score(){
+	public int score() throws BowlingException{
 		int sum = 0;
 		for (int i=0; i < frames.size(); i++) {
 			sum += frames.get(i).score();
+			if (frames.get(i).isStrike()) {
+				/*
+				 *  check if there is a subsequent frame to the strike frame and calculate score, 
+				 *  otherwise throw an exception
+				 */
+				if (i + 1 < frames.size()) {
+					Frame subsequentFrame = frames.get(i + 1);
+					sum += subsequentFrame.getFirstThrow() + subsequentFrame.getSecondThrow();
+				} else {
+					throw new BowlingException();
+				}
+			}
 		}
 		return sum;
 	}

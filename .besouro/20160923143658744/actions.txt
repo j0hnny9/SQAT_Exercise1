@@ -258,3 +258,10 @@ CompilationAction 1474635031930 TestBowling.java
 UnitTestCaseAction 1474635032188 TestBowling.java FAIL
 UnitTestSessionAction 1474635032188 TestBowling.java FAIL
 EditAction 1474635115450 BowlingGame.java 961 6 6 0
+UnitTestCaseAction 1474635115761 TestBowling.java FAIL
+UnitTestSessionAction 1474635115762 TestBowling.java FAIL
+RefactoringAction 1474635237822 BowlingGame.java REMOVE getFrames() METHOD
+RefactoringAction 1474635237823 BowlingGame.java REMOVE getExistingFrameByNr(int) METHOD
+RefactoringAction 1474635238525 BowlingGame.java ADD Frame getExistingFrameByNr(int) METHOD
+RefactoringAction 1474635238526 BowlingGame.java ADD List<Frame> getFrames() METHOD
+EditAction 1474635491855 BowlingGame.java 1391 6 6 0
