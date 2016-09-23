@@ -73,7 +73,6 @@ public class TestBowling {
 		game.addFrame(new Frame(0,4));
 		game.addFrame(new Frame(1,3));
 		game.addFrame(new Frame(2,8));
-		System.out.println(game.getFrames().size());
 		assertEquals(1, game.getExistingFrameByNr(1).getFirstThrow());
 	}
 	
