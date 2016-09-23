@@ -304,3 +304,4 @@ RefactoringAction 1474635826459 TestBowling.java RENAME tesFrame_SpareInSecond=>
 RefactoringAction 1474635827975 TestBowling.java RENAME tesFrame_SpareInSecondThrow=>void tesFrame_SpareInSecondThrow() METHOD
 RefactoringAction 1474635884777 TestBowling.java ADD void testFrame_Spare_6_4() METHOD
 EditAction 1474635938373 TestBowling.java 4912 21 60 14
+EditAction 1474635938439 Frame.java 966 6 8 0
