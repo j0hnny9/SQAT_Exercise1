@@ -214,7 +214,7 @@ public class TestBowling {
 	 */
 	
 	@Test
-	public void testGame_Strike_FollowedBySpare() throws BowlingException {
+	public void testGame_Strike_FollowedBySpare_Score_103() throws BowlingException {
 		game.addFrame(new Frame(10,0));
 		game.addFrame(new Frame(4,6));
 		game.addFrame(new Frame(7,2));
@@ -235,7 +235,19 @@ public class TestBowling {
 	 */
 	
 	@Test
-	public void testGame_MultipleStrikes() {
+	public void testGame_2Strikes_Score_112() {
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(10,0));
+		game.addFrame(new Frame(7,2));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(4,4));
+		game.addFrame(new Frame(5,3));
+		game.addFrame(new Frame(3,3));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(8,1));
+		game.addFrame(new Frame(2,6));
+		
+		assertEquals(112, game.score());
 		fail();
 	}
 	

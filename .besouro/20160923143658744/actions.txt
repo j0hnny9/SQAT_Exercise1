@@ -378,3 +378,16 @@ UnitTestSessionAction 1474637480403 TestBowling.java OK
 RefactoringAction 1474637517016 TestBowling.java ADD void testGame FIELD
 RefactoringAction 1474637526030 TestBowling.java RENAME testGame=>void testGame_MultipleStrikes() METHOD
 EditAction 1474637527720 TestBowling.java 5986 24 81 17
+UnitTestCaseAction 1474637528008 TestBowling.java FAIL
+UnitTestSessionAction 1474637528008 TestBowling.java FAIL
+RefactoringAction 1474637580577 TestBowling.java RENAME testGame_MultipleStrikes()=>void testGame_2Strikes() METHOD
+RefactoringAction 1474637583093 TestBowling.java RENAME testGame_2Strikes()=>void testGame_2Strikes_() METHOD
+RefactoringAction 1474637584611 TestBowling.java RENAME testGame_2Strikes_()=>void testGame_2Strikes() METHOD
+RefactoringAction 1474637586628 TestBowling.java RENAME testGame_2Strikes()=>void testGame_2Strikes_() METHOD
+RefactoringAction 1474637588643 TestBowling.java RENAME testGame_2Strikes_()=>void testGame_2Strikes_Score() METHOD
+RefactoringAction 1474637592661 TestBowling.java RENAME testGame_Strike_FollowedBySpare()=>void testGame_Strike_FollowedBySpare_() METHOD
+RefactoringAction 1474637594176 TestBowling.java RENAME testGame_Strike_FollowedBySpare_()=>void testGame_Strike_FollowedBySpare_Score() METHOD
+RefactoringAction 1474637596227 TestBowling.java RENAME testGame_Strike_FollowedBySpare_Score()=>void testGame_Strike_FollowedBySpare_Score_103() METHOD
+RefactoringAction 1474637602743 TestBowling.java RENAME testGame_2Strikes_Score()=>void testGame_2Strikes_Score112() METHOD
+RefactoringAction 1474637604261 TestBowling.java RENAME testGame_2Strikes_Score112()=>void testGame_2Strikes_Score_112() METHOD
+EditAction 1474637646870 TestBowling.java 6381 24 92 18
