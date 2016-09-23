@@ -46,6 +46,16 @@ public class TestBowling {
 		Frame testFrame = new Frame(5,6);
 	}
 	
+	@Test(expected=BowlingException.class)
+	public void testFrame_NegativeFirstThrowValue_Exception() throws BowlingException {
+		Frame testFrame = new Frame(-1,5);
+	}
+	
+	@Test(expected=BowlingException.class)
+	public void testFrame_NegativeSecondThrowValue_Exception() throws BowlingException {
+		Frame testFrame = new Frame(2,-10);
+	}
+	
 	
 	/*
 	 * 2. Frame Score
