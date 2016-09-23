@@ -36,3 +36,23 @@ CompilationAction 1474631557740 TestBowling.java
 UnitTestCaseAction 1474631557965 TestBowling.java FAIL
 UnitTestSessionAction 1474631557966 TestBowling.java FAIL
 EditAction 1474631571476 TestBowling.java 521 2 4 2
+UnitTestCaseAction 1474631571773 TestBowling.java OK
+UnitTestSessionAction 1474631571773 TestBowling.java OK
+RefactoringAction 1474631711402 TestBowling.java ADD void testFrame FIELD
+RefactoringAction 1474631712419 TestBowling.java RENAME testFrame=>void testFrame_ FIELD
+RefactoringAction 1474631714433 TestBowling.java RENAME testFrame_=>void testFrame_Initil FIELD
+RefactoringAction 1474631719447 TestBowling.java RENAME testFrame_Initil=>void testFrame_InitialSetup_Frame_2_4_output_SecondThrow4()/2 METHOD
+RefactoringAction 1474631728464 TestBowling.java RENAME testFrame_InitialSetup_Frame_2_4_output_SecondThrow4()/2=>void testFrame_InitialSetup_Invalid_output_SecondThrow4() METHOD
+RefactoringAction 1474631732979 TestBowling.java RENAME testFrame_InitialSetup_Invalid_output_SecondThrow4()=>void testFrame_InitialSetup_InvalidTh_output_SecondThrow4() METHOD
+RefactoringAction 1474631734003 TestBowling.java RENAME testFrame_InitialSetup_InvalidTh_output_SecondThrow4()=>void testFrame_InitialSetup_InvalidThrow_output_SecondThrow4() METHOD
+RefactoringAction 1474631736521 TestBowling.java RENAME testFrame_InitialSetup_InvalidThrow_output_SecondThrow4()=>void testFrame_InitialSetup_InvalidThrowNr_output_SecondThrow4() METHOD
+RefactoringAction 1474631741541 TestBowling.java RENAME testFrame_InitialSetup_InvalidThrowNr_output_SecondThrow4()=>void testFrame_InitialSetup_InvalidThrowNr_() METHOD
+RefactoringAction 1474631744558 TestBowling.java RENAME testFrame_InitialSetup_InvalidThrowNr_()=>void testFrame_InitialSetup_InvalidThrowNr_Execpt() METHOD
+RefactoringAction 1474631746074 TestBowling.java RENAME testFrame_InitialSetup_InvalidThrowNr_Execpt()=>void testFrame_InitialSetup_InvalidThrowNr_Execption() METHOD
+RefactoringAction 1474631752091 TestBowling.java RENAME testFrame_InitialSetup_InvalidThrowNr_Execption()=>void testFrame_InitialSetup_InvalidThrowNr_Excption() METHOD
+RefactoringAction 1474631758609 TestBowling.java RENAME testFrame_InitialSetup_InvalidThrowNr_Excption()=>void testFrame_InitialSetup_InvalidThrowNr_Exception() METHOD
+FileOpenedAction 1474631787226 SudokuVerifier.java 2230 8 21 0
+FileOpenedAction 1474631791496 SudokuVerifierTest.java 2929 15 20 11
+FileOpenedAction 1474631797998 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1474631810143 TestBowling.java ADD import jdk.Exported IMPORT
+EditAction 1474631896464 TestBowling.java 717 3 5 2

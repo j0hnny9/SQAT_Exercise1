@@ -2,6 +2,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import jdk.Exported;
+
 public class TestBowling {
 	
 	
@@ -24,5 +26,9 @@ public class TestBowling {
 		assertEquals(4, testFrame.getSecondThrow());
 	}
 	
+	@Test(expected=BowlingException.class)
+	public void testFrame_InitialSetup_InvalidThrowNr_Exception() throws BowlingException {
+		Frame testFrame = new Frame(2,4);
+	}
 
 }
