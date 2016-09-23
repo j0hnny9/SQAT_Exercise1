@@ -211,3 +211,19 @@ RefactoringAction 1474634436963 TestBowling.java ADD void testGame FIELD
 RefactoringAction 1474634438477 TestBowling.java RENAME testGame=>void testGame_ FIELD
 RefactoringAction 1474634440493 TestBowling.java RENAME testGame_=>void testGame_strike() METHOD
 EditAction 1474634444451 TestBowling.java 3471 15 37 9
+UnitTestCaseAction 1474634444730 TestBowling.java FAIL
+UnitTestSessionAction 1474634444730 TestBowling.java FAIL
+RefactoringAction 1474634546565 TestBowling.java RENAME testGame_strike()=>void testGame_strike_() METHOD
+RefactoringAction 1474634566583 TestBowling.java RENAME testGame_strike_()=>void testGame_strike_FirstThrow() METHOD
+RefactoringAction 1474634568097 TestBowling.java RENAME testGame_strike_FirstThrow()=>void testGame_strike_FirstThrow10() METHOD
+RefactoringAction 1474634621681 TestBowling.java RENAME testFrame_InvalidFirdtThrow_Exception()=>void testFrame_InvalidFirstThrow_Exception() METHOD
+RefactoringAction 1474634633199 TestBowling.java ADD void testFrame_InvalidSumOfThrows_Exception()/2 METHOD
+RefactoringAction 1474634642713 TestBowling.java RENAME testFrame_InvalidSumOfThrows_Exception()/2=>void testFrame_InvalidSumOfThrows5_Exception() METHOD
+RefactoringAction 1474634644228 TestBowling.java RENAME testFrame_InvalidSumOfThrows5_Exception()=>void testFrame_InvalidSumOfThrows5_6_Exception() METHOD
+RefactoringAction 1474634646247 TestBowling.java RENAME testFrame_InvalidSumOfThrows5_6_Exception()=>void testFrame_InvalidSumOfThrows11_Exception() METHOD
+RefactoringAction 1474634648761 TestBowling.java RENAME testFrame_InvalidSumOfThrows_Exception()=>void testFrame_InvalidSumOfThrows__Exception() METHOD
+RefactoringAction 1474634653275 TestBowling.java RENAME testFrame_InvalidSumOfThrows11_Exception()=>void testFrame_InvalidSumOfThrows_Exception() METHOD
+RefactoringAction 1474634655290 TestBowling.java RENAME testFrame_InvalidSumOfThrows_Exception()=>void testFrame_InvalidSumOfThrows__Exception()/2 METHOD
+RefactoringAction 1474634657804 TestBowling.java RENAME testFrame_InvalidSumOfThrows__Exception()/2=>void testFrame_InvalidSumOfThrows_5_6_Exception() METHOD
+RefactoringAction 1474634670820 TestBowling.java RENAME testFrame_InvalidSumOfThrows__Exception()=>void testFrame_InvalidSumOfThrows_10_1_Exception() METHOD
+EditAction 1474634694337 Frame.java 900 6 8 0
