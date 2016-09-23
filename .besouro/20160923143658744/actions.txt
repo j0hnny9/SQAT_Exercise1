@@ -57,3 +57,8 @@ FileOpenedAction 1474631797998 SudokuVerifierParametrizedTest.java 172 1 1 0
 RefactoringAction 1474631810143 TestBowling.java ADD import jdk.Exported IMPORT
 EditAction 1474631896464 TestBowling.java 717 3 5 2
 EditAction 1474631896528 Frame.java 781 6 8 0
+CompilationAction 1474631896616 TestBowling.java
+CompilationAction 1474631908242 TestBowling.java
+UnitTestCaseAction 1474631908533 TestBowling.java OK
+UnitTestSessionAction 1474631908533 TestBowling.testFrame_InitialSetup_Frame_2_4_output_firstThrow2 OK
+EditAction 1474632011763 TestBowling.java 771 3 5 2
