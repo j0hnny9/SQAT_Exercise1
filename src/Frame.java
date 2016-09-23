@@ -3,7 +3,9 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
-		if (firstThrow + secondThrow > 10) {
+		if (firstThrow < 0 || secondThrow < 0) {
+			throw new BowlingException();
+		} else if (firstThrow + secondThrow > 10) {
 			throw new BowlingException();
 		}
 		this.firstThrow = firstThrow;

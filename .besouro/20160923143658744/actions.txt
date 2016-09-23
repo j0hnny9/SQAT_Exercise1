@@ -194,3 +194,4 @@ RefactoringAction 1474634305433 TestBowling.java RENAME testFrame_NegativeSecond
 RefactoringAction 1474634308448 TestBowling.java RENAME testFrame_NegativeFirstThrowValues_Exception()=>void testFrame_NegativeFirstThrowValue_Exception() METHOD
 RefactoringAction 1474634313965 TestBowling.java RENAME testFrame_NegativeSecondThrowValues_Exception()=>void testFrame_NegativeSecondThrowValue_Exception() METHOD
 EditAction 1474634334822 TestBowling.java 3189 13 34 8
+EditAction 1474634334887 Frame.java 861 6 8 0
