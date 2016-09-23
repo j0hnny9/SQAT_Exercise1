@@ -30,8 +30,11 @@ public class Frame {
 		 *   for the case of a strike or spare frame and calculate score for these cases
 		 *  otherwise do nothing
 		 */
-		if (this.subsequentFrame != null && this.isStrike()) {					
+		if (this.subsequentFrame != null && this.isStrike()) {
 			score += this.subsequentFrame.getFirstThrow() + subsequentFrame.getSecondThrow();
+			if (this.subsequentFrame.isStrike()) {
+				score += 10;
+			}
 		} else if (this.subsequentFrame != null && this.isSpare()) {
 			score += this.subsequentFrame.getFirstThrow();
 		}
