@@ -32,8 +32,8 @@ public class Frame {
 		 */
 		if (this.subsequentFrame != null && this.isStrike()) {
 			score += this.subsequentFrame.getFirstThrow() + subsequentFrame.getSecondThrow();
-			if (this.subsequentFrame.isStrike()) {
-				score += 10;
+			if (this.subsequentFrame.isStrike() && this.subsequentFrame.subsequentFrame != null) {
+				score += this.subsequentFrame.subsequentFrame.firstThrow;
 			}
 		} else if (this.subsequentFrame != null && this.isSpare()) {
 			score += this.subsequentFrame.getFirstThrow();
