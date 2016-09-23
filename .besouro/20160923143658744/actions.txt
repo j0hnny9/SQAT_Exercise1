@@ -238,3 +238,15 @@ RefactoringAction 1474634817716 TestBowling.java RENAME testGame_strike_FirstThr
 RefactoringAction 1474634819731 TestBowling.java RENAME testGame_Nostrike_FirstThrow10()=>void testGame_NoStrike_FirstThrow10() METHOD
 RefactoringAction 1474634822243 TestBowling.java RENAME testGame_NoStrike_FirstThrow10()=>void testGame_NoStrike_FirstThrow9() METHOD
 EditAction 1474634835184 TestBowling.java 3934 17 41 11
+UnitTestCaseAction 1474634835487 TestBowling.java OK
+UnitTestSessionAction 1474634835487 TestBowling.java OK
+RefactoringAction 1474634897900 TestBowling.java ADD void testGame_ FIELD
+RefactoringAction 1474634899915 TestBowling.java RENAME testGame_=>void testGame_Strike FIELD
+RefactoringAction 1474634904443 TestBowling.java RENAME testGame_Strike=>void testGame_1Strike FIELD
+RefactoringAction 1474634905959 TestBowling.java RENAME testGame_1Strike=>void testGame_1Strike_ FIELD
+RefactoringAction 1474634911974 TestBowling.java RENAME testGame_1Strike_=>void testGame_1Strike_Sum FIELD
+RefactoringAction 1474634912988 TestBowling.java RENAME testGame_1Strike_Sum=>void testGame_1Strike_Sum_ FIELD
+RefactoringAction 1474634916500 TestBowling.java RENAME testGame_1Strike_Sum_=>void testGame_1Strike_Sum_91 FIELD
+RefactoringAction 1474634918513 TestBowling.java RENAME testGame_1Strike_Sum_91=>void testGame_1Strike_Sum_94 FIELD
+RefactoringAction 1474634924528 TestBowling.java RENAME testGame_1Strike_Sum_94=>void testGame_1Strike_Sum_94() METHOD
+EditAction 1474634929673 TestBowling.java 4002 18 42 11

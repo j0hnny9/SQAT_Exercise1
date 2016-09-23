@@ -151,5 +151,10 @@ public class TestBowling {
 		Frame strikeFrame = new Frame(9,1);
 		assertEquals(false, strikeFrame.isStrike());
 	}
+	
+	@Test
+	public void testGame_1Strike_Sum_94() {
+		fail();
+	}
 
 }
