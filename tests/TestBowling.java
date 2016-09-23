@@ -208,4 +208,14 @@ public class TestBowling {
 		assertEquals(88, game.score());
 	}
 	
+	
+	/*
+	 * 7. Strike and Spare
+	 */
+	
+	@Test
+	public void testGame_Strike_FollowedBySpare() {
+		fail();
+	}
+	
 }
